@@ -1,0 +1,19 @@
+16.12.2008 - Cedric Spindler <cs@cabag.ch>
+	* Updated manual
+	* TER Upload.
+	
+15.12.2008 - Cedric Spindler <cs@cabag.ch>
+	* Version 0.0.2
+	* the extension now uses currency / language settings from 
+		TypoScript settings.
+	* added extension icon
+	
+28.11.2008 - Cedric Spindler <cs@cabag.ch>
+	* Version 0.0.1
+	* implemented request handling with the yellowpay payment gateway
+	* added ext_conft_template.txt for configuration
+	
+30.10.2008 - Cedric Spindler <cs@cabag.ch>
+	* Initial release - Version 0.0.0
+	* Defined the steps for the orderprocess
+	* TODO: develop the request handling for communication with yellowpay
