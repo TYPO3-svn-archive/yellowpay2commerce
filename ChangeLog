@@ -1,9 +1,10 @@
 16.01.2009 - Cedric Spindler <cs@cabag.ch>
-	* Version 0.0.3
+	* Version 1.0.1
 	* added option yellowpayTPURL to ext_conf_template.txt. The URL
-		of the dynamic template for the payment gateway can be specified.
+	  of the dynamic template for the payment gateway can be specified.
 
 16.12.2008 - Cedric Spindler <cs@cabag.ch>
+	* Version 1.0.0
 	* Updated manual
 	* TER Upload.
 	
