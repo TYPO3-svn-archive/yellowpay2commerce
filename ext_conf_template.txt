@@ -4,6 +4,9 @@ yellowpayPaymentURL =
 # cat=basic; type=string; label=Yellowpay test payment URL: URL of the PostFinance processing-gateway (overwritten by yellowpayPaymentURL)
 yellowpayTestPaymentURL = 
 
+# cat=basic; type=string; label=Yellowpay template page URL: URL for the template page loaded for the option "dynamic template", used to layout the paymentgateway
+yellowpayTPURL = 
+
 # cat=basic; type=string; label=PostFinance PSPID: Your PSPID from the PostFinance backoffice
 yellowpayPSPID = 
 

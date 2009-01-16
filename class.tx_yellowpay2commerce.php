@@ -177,6 +177,10 @@ class tx_yellowpay2commerce {
 			);
 			$paymentParams['COM'] = $ext_conf['yellowpayOrderTitle'];
 			
+			if(!empty($ext_conf['yellowpayTPURL'])) {
+				$paymentParams['TP'] = $ext_conf['yellowpayTPURL'];
+			}
+			
 			// Process Yellowpay payment gateway forward
 			$this->sendToYellowpay($paymentURL, $paymentParams);
 			
