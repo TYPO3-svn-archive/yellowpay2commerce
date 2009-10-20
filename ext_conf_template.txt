@@ -1,0 +1,26 @@
+# cat=basic; type=string; label=Yellowpay payment URL: URL of the PostFinance processing-gateway (standard: https://e-payment.postfinance.ch/ncol/prod/orderstandard.asp)
+yellowpayPaymentURL = 
+
+# cat=basic; type=string; label=Yellowpay test payment URL: URL of the PostFinance processing-gateway (overwritten by yellowpayPaymentURL) (standard: https://e-payment.postfinance.ch/ncol/test/orderstandard.asp)
+yellowpayTestPaymentURL = 
+
+# cat=basic; type=string; label=Yellowpay template page PID: PID for the template page loaded for the option "dynamic template", used to layout the paymentgateway
+yellowpayTPPID = 
+
+# cat=basic; type=string; label=PostFinance PSPID: Your PSPID from the PostFinance backoffice
+yellowpayPSPID = 
+
+# cat=basic; type=string; label=Order-ID Prefix: Put this string in front of every order-ID for identification in the PostFinance backoffice
+yellowpayOrderIDprefix = y2c-c-
+
+# cat=basic; type=string; label=Order-ID Startnumber: Startnumber where the orderID starts (std: unix timestamp as orderID)
+yellowpayOrderIDstart =
+
+# cat=basic; type=string; label=Order-title: General name of the order which is displayed as title during the Yellopay payment process
+yellowpayOrderTitle = Order from the Company online-shop
+
+# cat=basic; type=string; label=Key which is used for sha1 encryption for sending the order
+yellowpaySHA1KeyIN = Please Change!!!
+
+# cat=basic; type=string; label=Key which is used for sha1 encryption for receiving the order confirmation
+yellowpaySHA1KeyOUT = Please Change!!!
